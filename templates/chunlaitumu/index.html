@@ -11,7 +11,23 @@
 		<title>春來土木包工業</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<meta name="description" content="台中市后里區春來土木包工業，承攬項目：土方開挖,模板工程,鋼筋組立,其他土木相關承攬">
 		<link rel="stylesheet" href= "{% static 'assets/css/main.css' %}" />
+		<script src="{% static 'assets/js/jquery.min.js' %}"></script>
+		<script>
+			$(document).ready(function(){
+			  $("#btn1").click(function(){
+			    $('html,body').animate({
+			        scrollTop: $("#intro1").offset().top},
+			        'slow');
+			  });
+			  $("#btn2").click(function(){
+			    $('html,body').animate({
+			        scrollTop: $("#intro2").offset().top},
+			        'slow');
+			  });
+			});
+		</script>
 	</head>
 	<body>
 
@@ -21,15 +37,20 @@
 					<h1>春來土木包工業</h1>
 					<p>chunlaitumu</p>
 				</div>
+
 			</header>
-
 		<!-- Wrapper -->
+		</p>
+		<center>
+			<button type="button" id="btn1">承攬項目</button>
+			<button type="button" id="btn2">聯絡資訊</button>
+		</center>
 			<div id="wrapper">
-
 				<!-- Banner -->
 					<section id="intro" class="main">
+						<p id='intro1'></p>
 						<span class="icon fa-diamond major"></span>
-						<h2>承攬項目</h2>
+						<h2 id='intro1'>承攬項目</h2>
 					</section>
 			    
 				<!-- Items -->
@@ -107,12 +128,14 @@
 
 				<!-- Footer -->	
 				<section id="intro" class="main">
+						<p id='intro2'></p>
 						<span class="icon fa-diamond major"></span>
-						<h2>聯絡資訊</h2>
+						<h2 id='intro2'>聯絡資訊</h2>
 						<h3>春來土木包工業</h3>
-						<p>聯絡人：張春來&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp聯絡人：張盛智</p>
-						<p>電話：0936957752&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp電話：0988602681</p>
+						<p>聯絡人：張春來&emsp;&emsp;電話：0936957752</p>
+						<p>聯絡人：張盛智&emsp;&emsp;電話：0988602681</p>
 						<p>地址：台中市后里區墩西里四村路23號</p>
+						<p>傳真：04-25584025</p>
 				</section>
 					<footer id="footer">
 						<ul class="icons">
@@ -125,11 +148,10 @@
 			</div>
 					
 
-		<!-- Scripts 
+		<!-- Scripts -->
 			<script src="assets/js/jquery.min.js"></script>
 			<script src="assets/js/skel.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
-		-->
 	</body>
 </html>

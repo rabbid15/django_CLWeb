@@ -334,10 +334,7 @@
 	input[type="button"],
 	button,
 	.button {
-		-moz-appearance: none;
-		-webkit-appearance: none;
-		-ms-appearance: none;
-		appearance: none;
+
 		-moz-transition: box-shadow 0.2s ease-in-out, background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 		-webkit-transition: box-shadow 0.2s ease-in-out, background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 		-ms-transition: box-shadow 0.2s ease-in-out, background-color 0.2s ease-in-out, color 0.2s ease-in-out;
@@ -347,15 +344,15 @@
 		cursor: pointer;
 		display: inline-block;
 		font-weight: 400;
-		height: 3.5em;
+		height: 5.5em;
 		line-height: 3.5em;
 		padding: 0 2em 0 2.375em;
 		text-align: center;
 		text-decoration: none;
-		white-space: nowrap;
 		text-transform: uppercase;
 		letter-spacing: 0.325em;
-		font-size: 0.725em;
+		font-size: 1.1em;
+
 	}
 
 		input[type="submit"].icon:before,
@@ -1385,17 +1382,22 @@
 				padding: 0 0.5em 0.25em 0.5em;
 				border-bottom: solid 2px #ffffff;
 				font-weight: 200;
-				font-family: "Pacifico", cursive;
-				text-transform: none;
-				letter-spacing: 0;
+				font-family: Microsoft JhengHei;
+				text-transform: uppercase;
+				letter-spacing: 0.325rem;
 			}
 
 			#header.alt p {
-				text-transform: uppercase;
-				letter-spacing: 0.325rem;
-				font-weight: 400;
-				font-size: 1.2em;
-				padding: 0 1.25em;
+				text-transform: none;
+				letter-spacing: 0rem;
+				font-weight: 300;
+				font-size: 3em;
+				font-family: "Pacifico";
+				padding: 0em;
+				text-transform: none;
+				letter-spacing: 0.125rem;
+
+
 			}
 
 			#header.alt .inner {
