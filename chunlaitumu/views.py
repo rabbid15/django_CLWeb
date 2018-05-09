@@ -6,3 +6,8 @@ def webpage(request):
 	{
 
 	})
+def google(request):
+	return render(request, 'chunlaitumu/googled89fa6facd209ad5.html',
+	{
+
+	})

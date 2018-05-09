@@ -15,8 +15,9 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
-from chunlaitumu.views import webpage
+from chunlaitumu.views import webpage,google
 
 urlpatterns = [
     path('',webpage),
+    path('googled89fa6facd209ad5.html',google)
 ]
