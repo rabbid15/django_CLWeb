@@ -25,7 +25,7 @@ SECRET_KEY = '9-r1qx0*+)rnqhj4-le3os3_)8v&f(!c5x++)dji62^s4f(jyj'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['59.126.114.26','www.chunlaitumu.com.tw','127.0.0.1']
+ALLOWED_HOSTS = ['122.117.63.209','www.chunlaitumu.com.tw','127.0.0.1']
 
 
 # Application definition
